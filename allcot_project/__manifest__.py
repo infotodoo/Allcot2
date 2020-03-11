@@ -2,9 +2,9 @@
 {
     'name': "Allcot project",
 
-    'summary': "Organize and schedule your projects.",
+    'summary': "Organize and schedule your projects",
 
-    'description': "Organize and schedule your projects.",
+    'description': "Organize and schedule your projects",
 
     'author': "Todoo SAS",
     'contributors': "Juan Arcos pa@todoo,co",

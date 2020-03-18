@@ -8,7 +8,7 @@ class ProjectTask(models.Model):
     _inherit = 'project.task'
 
     x_duration = fields.Integer('Duration in days', stored=True)
-    x_end_date = fields.Date('End date', readonly=True, stored=True)
+    x_end_date = fields.Date('End date', stored=True)
     x_next_task = fields.Many2one('project.task', 'Next task', readonly=True, ondelete='set null',
                                   compute='_compute_next_task')
     x_previous_task = fields.Many2one('project.task', 'Previous task', stored=True, ondelete='set null')
